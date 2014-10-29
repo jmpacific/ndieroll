@@ -1,0 +1,7 @@
+ndieroll.py
+
+This program prompts user for number of sides on a die and number of times to roll that die.
+It uses a for-loop to print the results of simulated die rolls using random.randint().
+
+Initial Version: Prompts for two values and prints results from random.randint()
+	-needs while-loop with tests for proper input
