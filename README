@@ -1,7 +1,39 @@
 ndieroll.py
 
 This program prompts user for number of sides on a die and number of times to roll that die.
-It uses a for-loop to print the results of simulated die rolls using random.randint().
 
-Initial Version: Prompts for two values and prints results from random.randint()
+Calls:
+
+python ndieroll.py --> Runs interactive die roll simulator from command line
+python ndieroll.py <S> <N> --> Runs single die roll simulation or N rolls with
+    a S-sided die
+
+
+
+GitHub Initial Commits:
+
+* Initial Version:
+
+Prompts for two values and prints results from random.randint()
 	-needs while-loop with tests for proper input
+
+* Addition of check and reprompt for user input:
+
+Makes sure that meaningful input
+	is given to simulator
+
+* Simulation continue until user quit:
+
+prompts user yes-or-no to see if the program
+	 should continue
+
+Releases:
+
+* Version 1.0
+    Features:
+    - runs interactively or with command line arguments
+    - checks to see if the integer value provided is reasonable
+    - Checks to see if the choice of sides is a Platonic solid
+    - Interactive mode will run simulations until told to quit
+    Needs:
+    - catch for improper command line or user input
